@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/diagnaltask/static/css/main.4faf9e9a.chunk.css",
-    "main.js": "/diagnaltask/static/js/main.48857075.chunk.js",
-    "main.js.map": "/diagnaltask/static/js/main.48857075.chunk.js.map",
-    "runtime-main.js": "/diagnaltask/static/js/runtime-main.8a7187a5.js",
-    "runtime-main.js.map": "/diagnaltask/static/js/runtime-main.8a7187a5.js.map",
-    "static/js/2.ddf0b676.chunk.js": "/diagnaltask/static/js/2.ddf0b676.chunk.js",
-    "static/js/2.ddf0b676.chunk.js.map": "/diagnaltask/static/js/2.ddf0b676.chunk.js.map",
-    "static/js/3.66e0830e.chunk.js": "/diagnaltask/static/js/3.66e0830e.chunk.js",
-    "static/js/3.66e0830e.chunk.js.map": "/diagnaltask/static/js/3.66e0830e.chunk.js.map",
-    "static/js/4.24658dc1.chunk.js": "/diagnaltask/static/js/4.24658dc1.chunk.js",
-    "static/js/4.24658dc1.chunk.js.map": "/diagnaltask/static/js/4.24658dc1.chunk.js.map",
+    "main.js": "/diagnaltask/static/js/main.12440e65.chunk.js",
+    "main.js.map": "/diagnaltask/static/js/main.12440e65.chunk.js.map",
+    "runtime-main.js": "/diagnaltask/static/js/runtime-main.f62c6d9e.js",
+    "runtime-main.js.map": "/diagnaltask/static/js/runtime-main.f62c6d9e.js.map",
+    "static/js/2.5aa5b9fa.chunk.js": "/diagnaltask/static/js/2.5aa5b9fa.chunk.js",
+    "static/js/2.5aa5b9fa.chunk.js.map": "/diagnaltask/static/js/2.5aa5b9fa.chunk.js.map",
+    "static/js/3.f9d676c4.chunk.js": "/diagnaltask/static/js/3.f9d676c4.chunk.js",
+    "static/js/3.f9d676c4.chunk.js.map": "/diagnaltask/static/js/3.f9d676c4.chunk.js.map",
+    "static/js/4.ecc6e9a9.chunk.js": "/diagnaltask/static/js/4.ecc6e9a9.chunk.js",
+    "static/js/4.ecc6e9a9.chunk.js.map": "/diagnaltask/static/js/4.ecc6e9a9.chunk.js.map",
     "static/js/5.d5437a64.chunk.js": "/diagnaltask/static/js/5.d5437a64.chunk.js",
     "static/js/5.d5437a64.chunk.js.map": "/diagnaltask/static/js/5.d5437a64.chunk.js.map",
     "index.html": "/diagnaltask/index.html",
     "static/css/main.4faf9e9a.chunk.css.map": "/diagnaltask/static/css/main.4faf9e9a.chunk.css.map",
-    "static/js/2.ddf0b676.chunk.js.LICENSE.txt": "/diagnaltask/static/js/2.ddf0b676.chunk.js.LICENSE.txt"
+    "static/js/2.5aa5b9fa.chunk.js.LICENSE.txt": "/diagnaltask/static/js/2.5aa5b9fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a7187a5.js",
-    "static/js/2.ddf0b676.chunk.js",
+    "static/js/runtime-main.f62c6d9e.js",
+    "static/js/2.5aa5b9fa.chunk.js",
     "static/css/main.4faf9e9a.chunk.css",
-    "static/js/main.48857075.chunk.js"
+    "static/js/main.12440e65.chunk.js"
   ]
 }
