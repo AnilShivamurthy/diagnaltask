@@ -28,21 +28,21 @@ function App() {
   const dispatch = useDispatch();
 
   const getPageDate = async ()=>{
-    await fetch('http://localhost:3000/CONTENTLISTINGPAGE-PAGE1.json').then(response => {
+    await fetch('./CONTENTLISTINGPAGE-PAGE1.json').then(response => {
       return response.json();
     }).then(pageOneData => {
       dispatch(setPageOne([pageOneData.page]));
       dispatch(setPageOneTitle(pageOneData.page.title));
     });
 
-    await fetch('http://localhost:3000/CONTENTLISTINGPAGE-PAGE2.json').then(response => {
+    await fetch('./CONTENTLISTINGPAGE-PAGE2.json').then(response => {
       return response.json();
     }).then(pageTwoData => {
       dispatch(setPageTwo([pageTwoData.page]));
       dispatch(setPageTwoTitle(pageTwoData.page.title));
     });
 
-    await fetch('http://localhost:3000/CONTENTLISTINGPAGE-PAGE3.json').then(response => {
+    await fetch('./CONTENTLISTINGPAGE-PAGE3.json').then(response => {
       return response.json();
     }).then(pageThreeData => {
       dispatch(setPageThree([pageThreeData.page]));
