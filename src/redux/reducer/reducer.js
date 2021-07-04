@@ -1,9 +1,7 @@
 import { actionType } from "../constant";
 
 const initialState ={
-    pageOneTitle: "",
-    pageTwoTitle: "",
-    pageThreeTitle: "",
+    pageTitle: "",
     pageOne: [],
     pageTwo: [],
     pageThree: [],
@@ -11,30 +9,10 @@ const initialState ={
     searchItem: [],
 }
 
-export const pageOneTitleReducer =(state=initialState, {type, payload})=>{
+export const pageTitleReducer =(state=initialState, {type, payload})=>{
     switch (type) {
         case actionType.SET_PAGE_ONE_TITLE:
             return {...state, pageOneTitle: payload};
-    
-        default:
-            return state;
-    }
-}
-
-export const pageTwoTitleReducer =(state=initialState, {type, payload})=>{
-    switch (type) {
-        case actionType.SET_PAGE_TWO_TITLE:
-            return {...state, pageTwoTitle: payload};
-    
-        default:
-            return state;
-    }
-}
-
-export const pageThreeTitleReducer =(state=initialState, {type, payload})=>{
-    switch (type) {
-        case actionType.SET_PAGE_TWO_TITLE:
-            return {...state, pageThreeTitle: payload};
     
         default:
             return state;

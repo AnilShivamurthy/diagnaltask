@@ -13,7 +13,7 @@ const ListingPageOne = () => {
                                 return (
                                     <div key={index}>
                                         <img src={(imageItem['poster-image'] === "posterthatismissing.jpg") ? "placeholder_for_missing_posters.png" : imageItem['poster-image'] } alt={imageItem.name} />
-                                        <div className="font-titillium text-white text-sm light pt-3">{imageItem.name}</div>
+                                        <div className="font-titillium text-white text-sm font-extralight pt-3">{imageItem.name}</div>
                                     </div>
                                 )
                             })

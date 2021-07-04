@@ -18,7 +18,7 @@ const Search = ({handleClickSearch}) => {
     return (
         <>
              <GoSearch className="text-white mt-1.5 absolute right-5" onClick={handleSearch}/> 
-             {(show) ? <input type="text" className="font-titillium text-white text-xs light border border-solid border-white bg-black rounded text-white pl-1" onChange={(e)=>handleChange(e)}/> : null}
+             {(show) ? <input type="text" placeholder="Search" className="font-titillium text-white text-xs font-extralight border border-solid border-white bg-black rounded text-white pl-1" onChange={(e)=>handleChange(e)}/> : null}
              
         </>
     );

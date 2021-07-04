@@ -1,8 +1,6 @@
 import { combineReducers } from "redux";
 import {
-    pageOneTitleReducer,
-    pageTwoTitleReducer,
-    pageThreeTitleReducer, 
+    pageTitleReducer,
     pageOneReducer, 
     pageTwoReducer, 
     pageThreeReducer, 
@@ -11,9 +9,7 @@ import {
 } from './reducer';
 
 const reducer = combineReducers({
-    combinePageOneTitle: pageOneTitleReducer,
-    combinePageTwoTitle: pageTwoTitleReducer,
-    combinePageThreeTitle: pageThreeTitleReducer,
+    combinePageTitle: pageTitleReducer,
     combinePageOne: pageOneReducer,
     combinePageTwo: pageTwoReducer,
     combinePageThree: pageThreeReducer,   

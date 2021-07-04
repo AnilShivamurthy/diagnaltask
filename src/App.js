@@ -1,7 +1,7 @@
 import React, { useEffect, Suspense } from 'react';
 import ListingPageOne from './components/ListingPageOne';
 import { useDispatch, useSelector } from 'react-redux';
-import { setPageOne, setPageOneTitle, setPageThree, setPageThreeTitle, setPageTwo, setPageTwoTitle, setSearch } from './redux/action';
+import { setPageOne, setPageThree, setPageTitle, setPageTwo, setSearch } from './redux/action';
 import Search from './components/Search';
 import SearchItem from './components/SearchItem';
 
@@ -20,7 +20,7 @@ const ListingPageThree = React.lazy(
 );
 
 function App() {
-  const title = useSelector(state => state.combinePageThreeTitle.pageThreeTitle);
+  const title = useSelector(state => state.combinePageTitle.pageTitle);
   const pageOne = useSelector(state => state.combinePageOne.pageOne);
   const pageTwo = useSelector(state => state.combinePageTwo.pageTwo);
   const pageThree = useSelector(state => state.combinePageThree.pageThree);
@@ -32,21 +32,19 @@ function App() {
       return response.json();
     }).then(pageOneData => {
       dispatch(setPageOne([pageOneData.page]));
-      dispatch(setPageOneTitle(pageOneData.page.title));
+      dispatch(setPageTitle(pageOneData.page.title));
     });
 
     await fetch('./CONTENTLISTINGPAGE-PAGE2.json').then(response => {
       return response.json();
     }).then(pageTwoData => {
       dispatch(setPageTwo([pageTwoData.page]));
-      dispatch(setPageTwoTitle(pageTwoData.page.title));
     });
 
     await fetch('./CONTENTLISTINGPAGE-PAGE3.json').then(response => {
       return response.json();
     }).then(pageThreeData => {
       dispatch(setPageThree([pageThreeData.page]));
-      dispatch(setPageThreeTitle(pageThreeData.page.title));
     });
   }
 
@@ -91,7 +89,7 @@ function App() {
   return (
     <div className="bg-black">
       <div className="flex justify-between pt-4 px-4">
-        <div className="font-titillium text-white text-base light">{title}</div>
+        <div className="font-titillium text-white text-base font-extralight">{title}</div>
        <Search handleClickSearch={handleClickSearch}/>
       </div>
       {

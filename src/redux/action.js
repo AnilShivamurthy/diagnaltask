@@ -1,22 +1,8 @@
 import { actionType } from "./constant";
 
-export const setPageOneTitle=(title)=>{
+export const setPageTitle=(title)=>{
     return{
-        type: actionType.SET_PAGE_ONE_TITLE,
-        payload: title
-    }
-}
-
-export const setPageTwoTitle=(title)=>{
-    return{
-        type: actionType.SET_PAGE_TWO_TITLE,
-        payload: title
-    }
-}
-
-export const setPageThreeTitle=(title)=>{
-    return{
-        type: actionType.SET_PAGE_THREE_TITLE,
+        type: actionType.SET_PAGE_TITLE,
         payload: title
     }
 }
