@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/diagnaltask/static/css/main.4faf9e9a.chunk.css",
-    "main.js": "/diagnaltask/static/js/main.a8029679.chunk.js",
-    "main.js.map": "/diagnaltask/static/js/main.a8029679.chunk.js.map",
+    "main.js": "/diagnaltask/static/js/main.48857075.chunk.js",
+    "main.js.map": "/diagnaltask/static/js/main.48857075.chunk.js.map",
     "runtime-main.js": "/diagnaltask/static/js/runtime-main.8a7187a5.js",
     "runtime-main.js.map": "/diagnaltask/static/js/runtime-main.8a7187a5.js.map",
     "static/js/2.ddf0b676.chunk.js": "/diagnaltask/static/js/2.ddf0b676.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.8a7187a5.js",
     "static/js/2.ddf0b676.chunk.js",
     "static/css/main.4faf9e9a.chunk.css",
-    "static/js/main.a8029679.chunk.js"
+    "static/js/main.48857075.chunk.js"
   ]
 }
