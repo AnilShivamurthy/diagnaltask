@@ -58,7 +58,7 @@ function App() {
     let EmptyArray = [];
   
     pageOne && pageOne.filter((itemOne, index)=>{
-      itemOne['content-items'].content.map((contentItem) => {
+      itemOne['content-items'].content.filter((contentItem) => {
         if(contentItem.name.toLowerCase() === searchValue.toLowerCase()){
             dispatch(setSearch(searchItem.concat(contentItem)));
             return EmptyArray.push(contentItem);

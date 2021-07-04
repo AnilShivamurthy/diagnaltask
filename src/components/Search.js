@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { GoSearch } from "react-icons/go";
 import { useDispatch, useSelector } from 'react-redux';
 import { setShow } from '../redux/action';
