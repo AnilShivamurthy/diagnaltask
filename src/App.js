@@ -21,6 +21,7 @@ const ListingPageThree = React.lazy(
 
 function App() {
   const title = useSelector(state => state.combinePageTitle.pageTitle);
+  console.log(title);
   const pageOne = useSelector(state => state.combinePageOne.pageOne);
   const pageTwo = useSelector(state => state.combinePageTwo.pageTwo);
   const pageThree = useSelector(state => state.combinePageThree.pageThree);
@@ -89,7 +90,7 @@ function App() {
   return (
     <div className="bg-black">
       <div className="flex justify-between pt-4 px-4">
-        <div className="font-titillium text-white text-base font-extralight">{title}</div>
+        <div className="font-titillium text-white text-base font-light">{title}</div>
        <Search handleClickSearch={handleClickSearch}/>
       </div>
       {

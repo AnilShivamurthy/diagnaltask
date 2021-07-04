@@ -11,8 +11,8 @@ const initialState ={
 
 export const pageTitleReducer =(state=initialState, {type, payload})=>{
     switch (type) {
-        case actionType.SET_PAGE_ONE_TITLE:
-            return {...state, pageOneTitle: payload};
+        case actionType.SET_PAGE_TITLE:
+            return {...state, pageTitle: payload};
     
         default:
             return state;
